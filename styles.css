@@ -1,0 +1,176 @@
+.logo {
+    margin: 1.5%;
+    cursor: pointer;
+}
+
+header {
+    background-color: rgb(166, 201, 233);
+    display: flex;
+    /* position: fixed; */
+
+}
+
+.iconInHeader {
+    display: flex;
+    margin: 10px;
+    position: absolute;
+    left: 40%;
+    right: 40%;
+    top: 22px;
+    gap: 30px;
+    font-size: xx-large;
+}
+
+.fa-solid {
+    margin: 5px;
+}
+
+#menuIcon {
+    position: absolute;
+    right: 3%;
+    top: 4%;
+    font-size: xx-large;
+    cursor: pointer;
+
+}
+
+.fa-solid:hover {
+    color: rgb(52, 52, 192);
+}
+
+h4 {
+    color: rgb(77, 122, 160);
+}
+
+u:hover {
+    color: rgb(7, 73, 132);
+    cursor: pointer;
+}
+
+.maindiv {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 150px;
+
+}
+
+.FirstImage {
+    height: 500px;
+    width: 570px;
+}
+
+.firstPageText {
+    text-align: center;
+}
+
+button {
+    color: white;
+    background-color: rgb(34, 16, 16);
+    height: 50px;
+    width: 150px;
+    border-radius: 17px;
+    border: none;
+}
+
+button:hover {
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+/* Second Page CSS */
+.SecondPage {
+    background-color: rgb(18, 34, 47);
+    color: white;
+    text-align: center;
+
+
+}
+
+
+
+/* element vanda class use gareko ramro margin ko laagi */
+h1 {
+    margin-left: 17%;
+    margin-right: 17%;
+}
+
+h5 {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.SecondPageBox {
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 50px;
+
+}
+
+
+
+
+.firstbox, .secondbox,
+.thirdbox 
+{
+    border: 0.75px solid white;
+    border-radius: 10px;
+    height: 350px;
+    width: 400px;
+    margin: 17px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+}
+
+
+#boxicons {
+    font-size: xx-large;
+}
+
+
+
+
+/* ThirdPage */
+
+
+.thirdPage{
+    margin: 10%;
+    font-size: large;
+    letter-spacing: 1.5px;
+}
+
+.contactexpert{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.LeadingTheWay{
+    display: flex;
+
+}
+
+p{
+    cursor: text;
+}
+
+ul{
+    color: rgb(124, 124, 124);
+}
+
+
+.building{
+    cursor:pointer;
+}
+
+li{
+    list-style-type:disc;
+    }
