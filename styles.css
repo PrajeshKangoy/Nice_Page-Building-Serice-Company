@@ -6,7 +6,12 @@
 header {
     background-color: rgb(166, 201, 233);
     display: flex;
-    /* position: fixed; */
+    flex-wrap: wrap;
+    position: fixed;
+    height: 70px;
+    left: 100px;
+    top: 0px;
+    right: 150px;
 
 }
 
@@ -26,9 +31,9 @@ header {
 }
 
 #menuIcon {
-    position: absolute;
+    position: fixed;
     right: 3%;
-    top: 4%;
+    top: 2%;
     font-size: xx-large;
     cursor: pointer;
 
@@ -50,6 +55,7 @@ u:hover {
 .maindiv {
     background-color: aliceblue;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     margin: 150px;
@@ -106,6 +112,7 @@ h5 {
 
 .SecondPageBox {
     display: flex;
+    flex-wrap: wrap;
     border-radius: 10px;
     justify-content: center;
     padding: 50px;
@@ -124,6 +131,7 @@ h5 {
     width: 400px;
     margin: 17px;
     display: flex; 
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center; 
 }
