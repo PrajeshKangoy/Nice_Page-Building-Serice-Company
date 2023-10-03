@@ -55,8 +55,8 @@ u:hover {
 .maindiv {
     background-color: aliceblue;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    /* flex-wrap: wrap; */
+    justify-content: center;
     align-items: center;
     margin: 150px;
 
@@ -69,6 +69,7 @@ u:hover {
 
 .firstPageText {
     text-align: center;
+
 }
 
 button {
