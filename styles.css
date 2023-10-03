@@ -31,7 +31,7 @@ header {
 }
 
 #menuIcon {
-    position: fixed;
+    position: absolute;
     right: 3%;
     top: 2%;
     font-size: xx-large;
@@ -123,18 +123,18 @@ h5 {
 
 
 
-.firstbox, .secondbox,
-.thirdbox 
-{
+.firstbox,
+.secondbox,
+.thirdbox {
     border: 0.75px solid white;
     border-radius: 10px;
     height: 350px;
     width: 400px;
     margin: 17px;
-    display: flex; 
+    display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: center; 
+    justify-content: center;
 }
 
 
@@ -148,13 +148,13 @@ h5 {
 /* ThirdPage */
 
 
-.thirdPage{
+.thirdPage {
     margin: 10%;
     font-size: large;
     letter-spacing: 1.5px;
 }
 
-.contactexpert{
+.contactexpert {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -162,24 +162,72 @@ h5 {
     text-align: center;
 }
 
-.LeadingTheWay{
+.LeadingTheWay {
     display: flex;
 
 }
 
-p{
+p {
     cursor: text;
 }
 
-ul{
+ul {
     color: rgb(124, 124, 124);
 }
 
 
-.building{
-    cursor:pointer;
+.building {
+    cursor: pointer;
 }
 
-li{
-    list-style-type:disc;
-    }
+li {
+    list-style-type: disc;
+}
+
+
+.fourthPageMain {
+    background-color: black;
+    background-image: url(https://imgs.search.brave.com/IA-a4lUg47kM0FW6vtr7Lz_eIaEWKTc1EHlAv1FFPVg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9idXJz/dC5zaG9waWZ5Y2Ru/LmNvbS9waG90b3Mv/YS1kcm9wLW9mLXBp/bmstYW5kLXllbGxv/dy1wYWludC1pbi13/YXRlci5qcGc_d2lk/dGg9MTAwMCZmb3Jt/YXQ9cGpwZyZleGlm/PTAmaXB0Yz0w);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+   
+}
+
+
+
+.Page-Four-div1,
+.Page-Four-div4 {
+    background-color: white;
+    height: 250px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.Page-Four-div2,
+.Page-Four-div3 {
+    background-color: rgb(41, 38, 38);
+    height: 250px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    color: white;    
+    border-radius: 5px;
+    margin: 15px;
+    padding: 7px;
+}
+
+.page4boxmain-div{
+    margin-right: 100px;
+    margin-left: 200px;
+    margin-top: 40px;
+}
+
+.boxRow{
+    display: flex ;
+}
