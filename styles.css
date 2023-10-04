@@ -305,6 +305,87 @@ li {
 }
 
 
+/* sixth page CSS */
+
+
+.page-six{
+    background-color: rgb(41, 38, 38);
+    color: white;
+    padding: 290px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.sixthPage-MainDiv{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sixthPage-rightside{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+.page6Box{
+    text-align: center;
+    border: 1px solid rgb(182, 152, 152);
+    margin: 19px;
+    border-radius: 10px;
+  height: 250px;
+  width: 300px;
+  padding: 15px;
+
+}
+
+
+/* Page 7 CSS */
+
+
+.page7maindiv{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: rgb(33, 23, 23);
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/168/815/785/computer-the-room-hacker-the-world-at-night-wallpaper-preview.jpg);
+    
+}
+
+.page7Box{
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.page7BoxContents{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 25px;
+    background-color: white;
+    height: 350px;
+    width: 300px;
+    margin: 25px;
+}
+
+
+.page7BoxImage{
+    border-radius: 50%;
+    height:200px;
+    width: 200px;
+}
+
+
+/* page 8 CSS */
+
+
+/* footer CSS */
 footer {
     color: white;
     text-align: center;
