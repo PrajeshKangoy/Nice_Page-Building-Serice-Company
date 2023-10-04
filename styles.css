@@ -192,7 +192,7 @@ li {
     justify-content: center;
     flex-wrap: wrap;
 
-   
+
 }
 
 
@@ -209,6 +209,7 @@ li {
     padding: 7px;
     left: 30%;
 
+
 }
 
 .Page-Four-div2,
@@ -218,19 +219,61 @@ li {
     width: 250px;
     display: flex;
     flex-direction: column;
-    color: white;    
+    color: white;
     border-radius: 5px;
     margin: 15px;
     padding: 7px;
     left: 30%;
 }
 
-.page4boxmain-div{
+.page4boxmain-div {
     margin-right: 100px;
     margin-left: 200px;
     margin-top: 40px;
 }
 
-.boxRow{
-    display: flex ;
+.boxRow {
+    display: flex;
+}
+
+
+.page5LeftSideup,
+.page5LeftSidedown {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20px;
+    margin-left: 190px;
+    margin-right: 1px;
+}
+
+
+.page5LeftSidedown {
+    text-align: center;
+    height: 250px;
+    width: 300px;
+    background-color: rgb(34, 16, 16);
+    color: white;
+    border-radius: 15px;
+}
+
+.building-cartoon-image{
+    /* background-image: url("//images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/78deac0247445a6f8caf3f8a/jhjhjh6.jpg"); */
+    height: 500px;
+    width: 500px;
+    border-radius: 12px;
+    margin-right: 10px;
+}
+
+.Page5-MainDiv{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    justify-content: center;
+    
+}
+
+.page5text{
+    text-align: left;
+    margin-left: 7px;
 }
