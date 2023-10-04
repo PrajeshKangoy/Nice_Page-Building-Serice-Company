@@ -232,6 +232,9 @@ li {
     margin-top: 40px;
 }
 
+
+/* page 5 CSS */
+
 .boxRow {
     display: flex;
 }
@@ -250,14 +253,26 @@ li {
 
 .page5LeftSidedown {
     text-align: center;
-    height: 250px;
-    width: 300px;
+    height: 350px;
+    width: 400px;
     background-color: rgb(34, 16, 16);
     color: white;
     border-radius: 15px;
+    display: flex;
+    justify-content: center;
 }
 
-.building-cartoon-image{
+.page5LeftSidedown{
+  margin-top: 60px
+}
+
+
+.page5Button{
+    position: relative;
+    margin-top: 25px;
+}
+
+.building-cartoon-image {
     /* background-image: url("//images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/78deac0247445a6f8caf3f8a/jhjhjh6.jpg"); */
     height: 500px;
     width: 500px;
@@ -265,23 +280,24 @@ li {
     margin-right: 10px;
 }
 
-.Page5-MainDiv{
+.Page5-MainDiv {
     display: flex;
     flex-wrap: wrap;
     margin-top: 100px;
     justify-content: center;
-    
+
 }
 
-.page5text{
+.page5text {
     text-align: left;
     margin-left: 7px;
+    width: 400px;
 }
 
-footer{
+footer {
     color: white;
     text-align: center;
-    background-color: rgb(115, 103, 103) ;
+    background-color: gray;
     height: 50px;
     padding: 25px;
 }
