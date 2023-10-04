@@ -197,6 +197,7 @@ li {
 
 
 
+
 .Page-Four-div1,
 .Page-Four-div4 {
     background-color: white;
@@ -206,7 +207,7 @@ li {
     flex-direction: column;
     margin: 15px;
     border-radius: 5px;
-    padding: 7px;
+    padding: 25px;
     left: 30%;
 
 
@@ -222,7 +223,7 @@ li {
     color: white;
     border-radius: 5px;
     margin: 15px;
-    padding: 7px;
+    padding: 25px;
     left: 30%;
 }
 
@@ -233,12 +234,13 @@ li {
 }
 
 
-/* page 5 CSS */
-
 .boxRow {
     display: flex;
+    flex-wrap: wrap;
 }
 
+
+/* page 5 CSS */
 
 .page5LeftSideup,
 .page5LeftSidedown {
