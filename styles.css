@@ -60,6 +60,10 @@ u:hover {
     align-items: center;
     margin: 150px;
 
+    /* flex-wrap: wrap; */
+
+    /* flex wrap garda vertically dekhauxa, narakhda crop vayera aauxa */
+
 }
 
 .FirstImage {
@@ -264,12 +268,12 @@ li {
     justify-content: center;
 }
 
-.page5LeftSidedown{
-  margin-top: 60px
+.page5LeftSidedown {
+    margin-top: 60px
 }
 
 
-.page5Button{
+.page5Button {
     position: relative;
     margin-top: 25px;
 }
@@ -295,6 +299,11 @@ li {
     margin-left: 7px;
     width: 400px;
 }
+
+.right-side {
+    margin-left: 30px;
+}
+
 
 footer {
     color: white;
