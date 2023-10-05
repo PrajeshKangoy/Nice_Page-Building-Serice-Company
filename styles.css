@@ -448,6 +448,39 @@ hr{
 }
 
 
+/* Page 9 (Second Last Page) CSS */
+.page-9-mainDiv{
+    background-image: url(https://imgs.search.brave.com/HyxxQre0cZZmONQ44LnzaU7xxYshmBe1m-azCvzYEt4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAxLzgyLzU3LzU1/LzM2MF9GXzE4MjU3/NTU2MF9YTWJDbWg1/c0RJVDEzbWJzVGRz/c1E3ekwxSnRqOHVk/Vi5qcGc);
+    color: white;
+    display: flex;
+}
+
+/* page 9 left side part */
+
+.fa-solid{
+    color: yellow;
+    padding: 12px;
+    padding-left: 1px;
+}
+
+.icon{
+    display: flex;
+}
+
+.left-side-main-div, .right-side-main-div{
+
+    /* padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 20px;
+    padding-bottom: 30px; */
+}
+
+/* page 9 right side part */
+.inputText{
+    color: rgb(90, 86, 86);
+    background-color: none;
+    
+}
 
 
 
