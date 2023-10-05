@@ -12,6 +12,7 @@ header {
     left: 100px;
     top: 0px;
     right: 150px;
+    z-index: 100;
 
 }
 
@@ -383,7 +384,7 @@ li {
 
 
 /* page 8 CSS */
-hr{
+.blue{
     height: 350px;
     background-color: blueviolet;
     margin-top: 0%;
@@ -397,6 +398,7 @@ hr{
     position: relative;
     left: 600px;
     bottom: 300px;
+    /* z-index: 0; */
 }
 
 .page-8-After-Image{
@@ -421,6 +423,7 @@ hr{
     position: relative;
     left: 400px;
     bottom: 670px;
+    z-index: 1;
 }
 
 
@@ -476,9 +479,13 @@ hr{
 }
 
 /* page 9 right side part */
-.inputText{
+#inputText{
     color: rgb(90, 86, 86);
-    background-color: none;
+    /* background-color: none; */
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+
     
 }
 
