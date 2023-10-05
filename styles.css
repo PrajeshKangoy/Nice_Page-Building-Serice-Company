@@ -383,6 +383,73 @@ li {
 
 
 /* page 8 CSS */
+hr{
+    height: 350px;
+    background-color: blueviolet;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.page8Image{
+    border-radius: 50%;
+    height: 550px;
+    width: 600px;
+    position: relative;
+    left: 600px;
+    bottom: 300px;
+}
+
+.page-8-After-Image{
+    position: relative;
+    bottom: 550px;
+}
+
+.page-8-heading{
+    text-align: center;
+}
+
+.page8-Box-Part{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: white;
+    padding: 15px;
+    height: 500px;
+    width: 300px;
+    position: relative;
+    left: 400px;
+    bottom: 670px;
+}
+
+
+.page-8-counts-MainDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.page-8-circle-Main-div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.page-8-counts{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: yellow;
+    margin: 55px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
 
 
 /* footer CSS */
