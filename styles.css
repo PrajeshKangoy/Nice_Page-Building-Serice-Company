@@ -1,6 +1,11 @@
+
+
+
 .logo {
     margin: 1.5%;
+    margin-left: 8%;
     cursor: pointer;
+    font-size: larger;
 }
 
 header {
@@ -37,15 +42,17 @@ header {
     top: 2%;
     font-size: xx-large;
     cursor: pointer;
+    margin-right: 5%;
 
 }
 
-.fa-solid:hover {
+#menuIcon:hover {
     color: rgb(52, 52, 192);
 }
 
-h4 {
-    color: rgb(77, 122, 160);
+.firstpage-paragraph {
+    color: #808080;
+    margin-right: 26%;
 }
 
 u:hover {
@@ -54,12 +61,14 @@ u:hover {
 }
 
 .maindiv {
-    background-color: aliceblue;
+
     display: flex;
     /* flex-wrap: wrap; */
     justify-content: center;
     align-items: center;
     margin: 150px;
+    margin-top: 70px;
+
 
     /* flex-wrap: wrap; */
 
@@ -68,21 +77,29 @@ u:hover {
 }
 
 .FirstImage {
+    background-image: url(https://i.pinimg.com/originals/68/8d/4d/688d4dec6e8bbd4c8b4187378eaf7024.jpg);
+
+
+}
+
+#photo{ 
     height: 500px;
     width: 570px;
+
 }
 
 .firstPageText {
-    text-align: center;
+    text-align: left;
 
 }
 
+
 button {
     color: white;
-    background-color: rgb(34, 16, 16);
+    background-color: #2b253c;
     height: 50px;
-    width: 150px;
-    border-radius: 17px;
+    width: 210px;
+    border-radius: 32px;
     border: none;
 }
 
@@ -96,13 +113,21 @@ button:hover {
 
 /* Second Page CSS */
 .SecondPage {
-    background-color: rgb(18, 34, 47);
+    background-color: #2b253c;
     color: white;
     text-align: center;
 
-
 }
 
+
+.page2Text {
+    font-size: 50px;
+    font-family: Raleway,sans-serif;
+}
+
+.page2Paragraph {
+    font-size: 25px;
+}
 
 
 /* element vanda class use gareko ramro margin ko laagi */
@@ -140,6 +165,7 @@ h5 {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
+    padding: 20px;
 }
 
 
@@ -155,9 +181,26 @@ h5 {
 
 .thirdPage {
     margin: 10%;
-    font-size: large;
-    letter-spacing: 1.5px;
+    font-size: 500;
+
 }
+
+.sampleheading {
+    letter-spacing: 5px;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+
+.thirdPage-div3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.leadingpart {
+    width: 70%;
+
+}
+
 
 .contactexpert {
     display: flex;
@@ -183,6 +226,10 @@ ul {
 
 .building {
     cursor: pointer;
+    margin-left: 1%;
+    font-size: 50px;
+    margin-right: 40%;
+
 }
 
 li {
@@ -194,9 +241,9 @@ li {
     background-color: black;
     background-image: url(https://imgs.search.brave.com/IA-a4lUg47kM0FW6vtr7Lz_eIaEWKTc1EHlAv1FFPVg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9idXJz/dC5zaG9waWZ5Y2Ru/LmNvbS9waG90b3Mv/YS1kcm9wLW9mLXBp/bmstYW5kLXllbGxv/dy1wYWludC1pbi13/YXRlci5qcGc_d2lk/dGg9MTAwMCZmb3Jt/YXQ9cGpwZyZleGlm/PTAmaXB0Yz0w);
     display: flex;
-    justify-content: center;
+    justify-content: left;
     flex-wrap: wrap;
-
+    padding-left: 7%;
 
 }
 
@@ -206,35 +253,39 @@ li {
 .Page-Four-div1,
 .Page-Four-div4 {
     background-color: white;
-    height: 250px;
-    width: 250px;
+    height: 300px;
+    width: 350px;
     display: flex;
     flex-direction: column;
     margin: 15px;
-    border-radius: 5px;
-    padding: 25px;
+    border-radius: 7px;
+    padding: 35px;
     left: 30%;
+    font-size: 20px;
+
 
 
 }
 
 .Page-Four-div2,
 .Page-Four-div3 {
-    background-color: rgb(41, 38, 38);
-    height: 250px;
-    width: 250px;
+    background-color: #2b253c;
+    height: 300px;
+    width: 350px;
     display: flex;
     flex-direction: column;
     color: white;
-    border-radius: 5px;
+    border-radius: 7px;
     margin: 15px;
-    padding: 25px;
+    padding: 35px;
     left: 30%;
+
+    font-size: 20px;
 }
 
 .page4boxmain-div {
-    margin-right: 100px;
-    margin-left: 200px;
+    margin-right: 10px;
+    margin-left: 10px;
     margin-top: 40px;
 }
 
@@ -262,7 +313,7 @@ li {
     text-align: center;
     height: 350px;
     width: 400px;
-    background-color: rgb(34, 16, 16);
+    background-color: #2b253c;
     color: white;
     border-radius: 15px;
     display: flex;
@@ -309,52 +360,62 @@ li {
 /* sixth page CSS */
 
 
-.page-six{
-    background-color: rgb(41, 38, 38);
+.page-six {
+    background-color: #2b253c;
     color: white;
-    padding: 290px;
+    padding: 10%;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
 
 }
 
-.sixthPage-MainDiv{
+.page-six-heading {
+    font-size: 30px;
+}
+
+.sixthPage-MainDiv {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 100px;
+
 }
 
-.sixthPage-rightside{
+.sixthPage-rightside {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
 }
 
 
-.page6Box{
+.page6Box {
     text-align: center;
     border: 1px solid rgb(182, 152, 152);
     margin: 19px;
     border-radius: 10px;
-  height: 250px;
-  width: 300px;
-  padding: 15px;
+    height: 200px;
+    width: 350px;
+    padding: 15px;
 
 }
+
+
 
 
 /* Page 7 CSS */
 
 
-.page7maindiv{
+.page7maindiv {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     color: rgb(33, 23, 23);
     background-image: url(https://c4.wallpaperflare.com/wallpaper/168/815/785/computer-the-room-hacker-the-world-at-night-wallpaper-preview.jpg);
-    
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
 }
 
-.page7Box{
+.page7Box {
     padding: 25px;
     display: flex;
     flex-wrap: wrap;
@@ -362,7 +423,7 @@ li {
     text-align: center;
 }
 
-.page7BoxContents{
+.page7BoxContents {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -376,22 +437,22 @@ li {
 }
 
 
-.page7BoxImage{
+.page7BoxImage {
     border-radius: 50%;
-    height:200px;
+    height: 200px;
     width: 200px;
 }
 
 
 /* page 8 CSS */
-.blue{
+.blue {
     height: 350px;
     background-color: blueviolet;
     margin-top: 0%;
     margin-bottom: 0%;
 }
 
-.page8Image{
+.page8Image {
     border-radius: 50%;
     height: 550px;
     width: 600px;
@@ -401,16 +462,16 @@ li {
     /* z-index: 0; */
 }
 
-.page-8-After-Image{
+.page-8-After-Image {
     position: relative;
-    bottom: 550px;
+    bottom: 150px;
 }
 
-.page-8-heading{
+.page-8-heading {
     text-align: center;
 }
 
-.page8-Box-Part{
+.page8-Box-Part {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -427,19 +488,21 @@ li {
 }
 
 
-.page-8-counts-MainDiv{
+.page-8-counts-MainDiv {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 1px;
 }
 
-.page-8-circle-Main-div{
+.page-8-circle-Main-div {
     display: flex;
     flex-direction: column;
     text-align: center;
+
 }
 
-.page-8-counts{
+.page-8-counts {
     height: 200px;
     width: 200px;
     border-radius: 50%;
@@ -451,52 +514,186 @@ li {
 }
 
 
+
 /* Page 9 (Second Last Page) CSS */
-.page-9-mainDiv{
-    background-image: url(https://imgs.search.brave.com/HyxxQre0cZZmONQ44LnzaU7xxYshmBe1m-azCvzYEt4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAxLzgyLzU3LzU1/LzM2MF9GXzE4MjU3/NTU2MF9YTWJDbWg1/c0RJVDEzbWJzVGRz/c1E3ekwxSnRqOHVk/Vi5qcGc);
+.page-9-mainDiv {
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxITEhUTEhIVFRUXFRUVEhUVFRAVEBUVFxcXFxUVFRUYHSggGBolGxYVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NDg0NDisZFRkrKzc3LTctKysrLS0tKzc3LS0tLSs3LSsrKysrNy0rKy03NystKysrKysrKy0tLS0rK//AABEIALcBEwMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAAABAECAwUGB//EADsQAAEDAQMLAwIFAwMFAAAAAAEAAhEDBCExBRJBUWFxgZGhwfAisdEy4QYTI3LxYoKyM1KiFCRCc5L/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/APhqEIQCEIQSFYKArhVFHKEKzBJUU1ZhAWVruMDeUw0JOq6SSqigC6thYQC4bo1hc2i29duyDNpydRJQcq2VM5xO2OSvZoEkpV+KYs7bpQdO1Oiytj/yee57BcikL+IXUy0zMZSaNLZO+AJ6lcyg6/ig6FmuJOplQ8qb1zpvC6FncYeYu/Lfq0tzZ6rntxCB4jwrlrrLlHFFQCn6H18x5ySICbb9TSNnUfdEOPYYO5YWNogzfet8061lYzD3A6vY/dAW0QA4aD57LVsnAc1NogtMeQpsgJYDqu5XIIsrvqbqM80VSA4Hgoez9QTgRBU1qQggICq667EXhYvMqA8nQhp0IKlysBp0IkKThcgq7epdU2KG7UZqCc5CqEIOchCFFCswKq0YEFg1VqCFvTS9UyVUUW9nYcQsYT9nZciqOqXHQUomrccBx86pRBvZx1MLrW45tMjZHZc2x05I5lbZRcQA2bpkcP5RCJT9npyGjXHX+Vz5XWye6ajAAbnA8r7uSDX8Tu/VDdTB1J+y5llbfzTmXKudWeRgIA4NHeVjY2+yBqz/AE1f/X7vpjuuW0Q5ddrf0637WDnVYey5tJvqCDYSdPJc9wvO9dY01yqg9R3n3RVkwCIB1QeUfCTW5HpB2EdSiOolnNiqJwPcfKYEmIHP7LC3Atc0nfdsMoHw0JTJ8jObqP27J3NS1MgVrjc4dYnt1QTa2HNzv9pBV6zhcda1qmQRrSdlwg6DCDMC8xvCo5uE7lraLiCN3P7xzVcwnE8kEQov2BaSCL8dKgNnBBR1ys0oLdiqCUEmn5JQq36yhBzUIQoqWhXBhQ0K7Qqi5eM25Lq1XFURV6eK6lMeeeXpOx0plaEFl4w1ecERha3S48uSxAQ4qaeKiuvkqlMngErlU+uNQ+/tCdybWDRmuuJvB0E6thXMtj5c46yY3aOgVRgxt4Xf/DNOawOprj0hcagy9d78P3F7tQjug4uUnTVqHQXu9yAiz1DF2xYvdN+u/utaDcUD1Mn8mqZ00xF197j2SdlMvG74TwMWd+2pTH/GoVzaI9SDqOIGJXFrfU7efddSmAubah63b0Gabs49PE9koU1Qubx89kHTs05jTsWWU2SwbDHMfZXsNU5nE+60tTgWHXcRz+JQWoUw5jSZNwxvWGUPSWPGg38L/lMZJaHU4JvBI7j3VspUP0zpiD2QSASbm80m1pFQtOkT8ro2RxdTa7ZB3i49Ql8oU4dTfgJzTuPhQZ17P6Spo0c4A6wumyk0aOaSsrSHPpgYHOGrNdf7ygXNDNcRrEj2Pbmoq0tIT1qouADzHpMn9uDul/BRWYAEHOFMziqkbFsGlQQgy/LCFopQcJSAoW1OlIUVULQGApFMjFVrkYBVGJRCFpQAkThpUV0KFOGjzzSsra6ABr879E4IOGHnnFc+3u9R2XfPdVChWtFt6zCdyfTl7QiunXpgUzIwb2/lcBd7K74p7SQO/YriU2yURYE643LqWOm5tF1Rp1zpBGC5wYu0/wBNj3x1IlBwGGSEwHAaUsG3rYCNCB51QfkRffVkSDfDCO6ToD1HcPdN2lv/AGzNtSoeTWDukbK4ybtSDoU1zLb9bvNCdaSkrYPWeHsEEAXpygPSRu7/ACkwU5ZX47uGIQb5PZcQdB7BPmmC0gDEEcwlrAPU4bAfddJrNSDk5Hd9TccD27LqGgXNcLhIK52T2ZtbNGpw5GexXdp0kHOyDX/TLdTsN/3lbZVYH0nDTiOCVyfTza72nB0xowMjoSu3QptvEY3IOXTrBzGum/NGd+4XHqCshViox2v0O4/T1hZWWk710v8Aa4xuP8dVrUsbs07kHSe3EG/WufSfAgi9pzTwwPKDxVqNcuaDrCsHAPvwcI/uF46TyCBd7ScIvuVPyoN5lP1GAgwl3DTP22IFTChMnchB5gLdtRYBXaUU3Sq60nVdJJV3uuWSCE/YKV0pEBdezsgAeeYoK/lFsuaY0kaNfwuY98465XTt1SGRru7/AAuUURMro5MzgS4CdBGzZtXNC9BkhsMv0+d0C2V7SHZoG0kHEHR3XPpC9b5VdNQkaI+e6UDigbm7zSu5l2mG2WiAfqI6AnuF5yztlzRtHuu1+KKeYabWm6C4jRNwn3Qcahjy7poMuS9le0GStTahoHZAzbmxQo/urHrTHZK2Jkk8Ezb6p/Log4ZryOLr/ZY2EXlBu6jCRtVIl51Q3/ELqualK4vu1D2CCtkoDNBiU4xstcP6T7KMlD0cSmzSuKDlWKoWvjG7jxXTZXfsHMrl2Ij8xvEdPsu2bNpCDnOeWV2k6wQdecIPUldxtfWVw8qU8DOA4yDOPELsNp3BwFxAKBK01A2ux+0TN105ruhXoHPYMVwMrszmC68H3u+FJtbnNadl+9BvXIbXDhg8R5xA5ph9TQuVac4tmb2wR5vjktqdqBAMz1QUsVznN1GRuP3lOWtkskC8XjeNCUNYCo18XH0GduHUBdB1QIE8/OAINxvELHM+flTTMOc3UZG43+88kVSUE3qFW9CDzas1UUyoqXlQFCEG1lZLguoPPN0rm0GGJBgrdlpj6hxGCqK2+pLo1DqfAk1eq6STrKooqWCSvRURDQNnv/IXBsxGcCcNK7FWsCxxadBjt2VHHrOkk6zPVSG3Kjh55vWgRDWSqU1mD+q9dL8VVM6sANDB1JnsksjN/VB1AqcqVJqu2QOQCDmPu6/HZXCq/HzWVMoOhlGCyiDopTze74SdBxbMGOWxPW0f6eyk0dXHukHY8T2QbEk4kneiuCDI1CQoBU1jhu7lAxk20hrTM4lMm2HUBv8AhIWJkyNq2fThBgDD9RDo6xK9PQbdeV5m2XmdRmdOtOMcSL795J90DOVM0xBBvi7zYn8nVv0mjUIPBcmuAWmdEHripydbS1pETfu2oHbXJnzd1VMnslrmnQbtxv8AeVi+0OdjA3D5V8n1g2oQ4xIxNwMG73QavstxGsEJfJtDOadbSQR1HQ9E5XtrNF+75wStiqRVIwDhPEX9zyQFppktLcNW8YdYUZxLQ7WL9+nqt7Y1ZWV49Q0fUNUHEcweaDFzs2HcDuOHWOZVn150IrDEaD5KuymHNB06Y1i49UGLXRoJ5IUEBCDz6lQhRQpChWYEDVMwPPNatVcI88wWYPnRVqn584BVGLwoUkqFFOZNZJKvbKEXt1xv8gc1rk5kNnzWotmIGwk+f2qo5znFTnlWrY3LOEU/kum4yWkg+Yjisn1pcc7GTfoXW/DlnJY9+gY8Afhcao6RPmtEZn49kEqCL1IQPVqwJg3EBog7ku4X8T7NTOUaTc4nAw3/ABakgT1Pb7INoWhbIG7uUtO1bGmYDm8duKDfJx9TkzXC59jtABJIx0Jp1rLsG80GFqOjYPaExTqXBK2pxBE6R3K1s8ZoQMMM8QR0WFF/qI2StGVmjhx9ksT6rtZb5yQONKpV+trtcTu+ntKoZQRLefXD2KBisIWVoqGGuF2acdI8Gcrh8gHWFkRII2e32lBFSqTiSd5lXp2jNAdGBLTudeOoStM3LUCQRrHXEebUGr7STs91tY6oEhxxvG/A3cjxSVMyFc69V/DT0v4IG3VmzpQsTQQg4qEIUUK9NUVg5Bq1ZuKvnLMqohCFLMVFdezXNHnmCVtL/WdkDkL+62ZUBwPnkrnudMnXJ5/yqis3qVAUoPV5HcWWKo7W1x7d152q27zcvR1jmWAAac0f/Tl5mq67igzYrAXjf3VafZWGI3hA7b2/qO4cIACUF54/Cbyg+ajz/U7oYSbDfx+EFyxWcTETd1Unuq/dBFnaC6EyKcJagYd5tTuegwteA49vlY0Kd2u9bWnDj7/wosOJnzBBWSotQ9UjYTqmB9044BL2gSLtRHX7hAEnSVQm4xjEjhj0lbUfU0LJrYcOXA3IIoWkgRGtSKpmVDB6iDpHsq1GQgs4Q4gqW1NSHgHNOu4+w9hzQaJCAcIJGE3jipzgFNZv0n+3uFo1kaEFqdqaAATeOcaOihQ4DUEIOShCFFCsoQgkhVUlQgFrZmyVkmbG3HkqL1qQAJw8+6VlNWp128/f4SpQRKkKIV6Q9Q3hQdrKrSykwBxgkekmRIE3ThuC4zn3LqZbrSGDf0uXJcqiWvVqbiSN6yC1s31t3orWrW9Ts7HOdOqZVGm/iiuZc79x9ysUQyagUCqOp7LBXERfrPZBow+rl51TYcucLkOJ0oHXvGvV3+VnT+rzasaUXjZ3CGkg+yBx5WY7+4+ywdWcdPJQwm+/RPUfJQNWU4jaq11jSrQh9UnQg1quvB8vEq7zKXqTmjzAz3W3/UNhBE+kjiPOATjTIBSAqycMfB1WtmrDNgmIQaVrwRxG8LQVQWgpZ9caL0WbS3VeNxvCDQvQqGNaEHPQhCihCEIBCEIBNUHQEqtQVRa0OmPPMFipcb1CCStrE2XtG1YJnJ/1jZJQb5WPqA2TzSBTWUny87AAlCgFvYRNRn7h7rBM5O/1GbwgzqH1HefdZlSSqlBKu3BZq7TciBy0KxK1lANx5+yHaFAN4UFBWValjzHRUUgoNSL0OUVCrkIIN7dx+3winTkKW6QtLHiRxQY/lkFULfUU+9KV7nAoIDVLxeOR7LQFVqmQgjMQtWXgFQgRQhCihCEIBCEIBaBwVEIBChCCVtZKoab1gtGBAVny4lUQoQC2szwHAlYq9LHgfZBAUIhCAUtKhSEAVdZwpG9UWUnSq5qgogCmFACIQaESFo3BYHYrNJjFBs1qKZ9Q5LIN1qrjBu3oOk5qWtdO6VILji7kq1CyCJJOi8lBajSLgCEy2xJGjbHMGaI44qr7W84uPt7IoFQtu1IWUoQVQhCgEIQgEIQglChCAUoQghaswQhUZoQhQCszsfZCFRChCFBCs1CEEkqqEIBShCC1MqUIVRDlpZtKEILkBY1kIQb0n+kJV4vQhFQVCEKAQhCo/9k=);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
     color: white;
     display: flex;
+    flex-wrap: wrap;
+
+    padding-left: 10%;
+    padding-right: 10%;
+    gap: 150px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-size: x-large;
 }
+
+.right-side-main-div{
+    margin-left: 1px;
+    padding-top: 150px;
+    padding-right: 10px;
+}
+
 
 /* page 9 left side part */
 
-.fa-solid{
-    color: yellow;
+.fa-solid {
+    /* color: yellow; */
     padding: 12px;
     padding-left: 1px;
 }
 
-.icon{
+.icon-detail {
     display: flex;
+    align-items: center;
+    font-size: 30px;
+
 }
 
-.left-side-main-div, .right-side-main-div{
+.icon {
+    color: yellow;
 
-    /* padding-left: 30%;
-    padding-right: 30%;
-    padding-top: 20px;
-    padding-bottom: 30px; */
 }
+
+
+
+
 
 /* page 9 right side part */
-#inputText{
-    color: rgb(90, 86, 86);
+#inputText,
+#inputText-message {
+    color: rgb(192, 188, 188);
     /* background-color: none; */
     background-color: transparent;
     border: none;
     border-bottom: 1px solid white;
+    padding: 10px;
 
-    
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+
+}
+
+.name-and-email {
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 15px;
+}
+
+#inputText-message {
+    height: 130px;
+    width: 450px;
+    text-align:start;
+    grid-area:initial;
+
+
 }
 
 
+
+.submit-button-page-9{
+    color: black;
+    background-color: yellow;
+    height: 60px;
+    width: 100%;
+    border-radius: 32px;
+    border: none; 
+    font-size: 20px;
+    
+}
+
+.submit-button-page-9:hover{
+    background-color: rgb(158, 153, 153);
+    color: black;
+    cursor: pointer;
+}
+/* Last Page CSS */
+
+.lastpageMainDiv {
+    background-color: #2b253c;
+    padding-top: 65px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+
+.logoimage:hover{
+cursor: pointer;
+}
+
+.socialMediaLinks {
+    margin-top: 18px;
+    gap: 10px;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+}
+
+.fa-facebook{
+    color: rgb(59, 89, 152);
+}
+
+
+.fa-twitter{
+    color: rgb(85, 172, 238);
+}
+
+.fa-instagram{
+    color: rgb(197, 54, 164);
+}
+
+
+.fa-linkedin{
+   color:  rgb(0, 122, 185);
+}
+
+.fa-facebook, .fa-twitter, .fa-instagram, .fa-linkedin{
+    border-radius: 50%;
+    font-size: 30px;
+    padding: 4px;
+}
+
+.fa-facebook, .fa-twitter, .fa-instagram, .fa-linkedin:hover{
+    cursor: pointer;
+}
+
+.lastPageLine {
+    color: white;
+    width: 70%;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+
+}
+
+.paragraphPageLast {
+    color: white;
+    padding-left: 30%;
+    padding-right: 30%;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-family: 'Open Sans',sans-serif;
+
+}
 
 
 /* footer CSS */
 footer {
     color: white;
     text-align: center;
-    background-color: gray;
-    height: 50px;
-    padding: 25px;
+    background-color: #333333;
+    height: 100px;
+    font-size: 20px;
+    padding-top: 35px;
+    font-weight: 5rem;
+
 }
+
